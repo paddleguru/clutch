@@ -1,4 +1,4 @@
-(defproject paddleguru/clutch "0.5.0"
+(defproject paddleguru/clutch "0.5.1-SNAPSHOT"
   :description "A Clojure library for Apache CouchDB."
   :url "https://github.com/paddleguru/clutch/"
   :license {:name "BSD"
