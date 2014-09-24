@@ -1,4 +1,4 @@
-# Clutch  [![Travis CI status](https://secure.travis-ci.org/clojure-clutch/clutch.png)](http://travis-ci.org/#!/clojure-clutch/clutch/builds)
+# Clutch  [![Travis CI status](https://secure.travis-ci.org/racehub/clutch.png)](http://travis-ci.org/#!/racehub/clutch/builds)
 
 Clutch is a [Clojure](http://clojure.org) library for [Apache CouchDB](http://couchdb.apache.org/).
 
@@ -15,20 +15,20 @@ export clutch_url=http://local:localpass@localhost:5984; lein test
 To include Clutch in your project, simply add the following to your `project.clj` dependencies:
 
 ```clojure
-[paddleguru/clutch "0.4.0"]
+[paddleguru/clutch "0.5.0"]
 ```
 
 Or, if you're using Maven, add this dependency to your `pom.xml`:
 
 ```
 <dependency>
-    <groupId>com.ashafa</groupId>
+    <groupId>paddleguru</groupId>
     <artifactId>clutch</artifactId>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
 </dependency>
 ```
 
-Clutch is compatible with Clojure 1.2.0 - 1.5.0, and requires Java 1.5+.
+This fork of Clutch is tested against Clojure 1.7.0, and requires Java 1.6+.
 
 ## Status
 
